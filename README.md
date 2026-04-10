@@ -13,11 +13,11 @@ Analyze mobile phone sales data to uncover trends and insights.
 - Seaborn
 
 ## Project Workflow
--Data Loading
--Data Cleaning
--Exploratory Data Analysis (EDA)
--Visualization
--Insights
+- Data Loading
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Visualization
+- Insights
 
 ## Key Insights
 - Price affects units sold
@@ -33,8 +33,8 @@ From the correlation matrix, one major issue is that revenue is highly dependent
 
 ## Project Structure
 
-├── data
-├── notebooks
-├── scripts
-└── reports
-    └── .gitignore
+- ├── data
+- ├── notebooks
+- ├── scripts
+- └── reports
+-    └── .gitignore
