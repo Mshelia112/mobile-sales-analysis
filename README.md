@@ -24,15 +24,14 @@ Project Workflow
 - Some brands dominate revenue
 - Sales trends vary over time
 
-How to Run the Project
--pip install -r requirements.txt
-
 ## Files
 - eda.ipynb
 - dataset.csv
 
+## Known Problems
+From the correlation matrix, one major issue is that revenue is highly dependent on price and units sold since it is a derived variable. Additionally, most variables show weak correlations, especially customer rating and time features, which do not significantly influence sales. This suggests the dataset lacks strong predictive features and may not fully represent real-world behavior. Also, variables like Sale_ID are not useful for analysis and can be considered irrelevant. These limitations highlight the need for more meaningful features and real-world data to improve the quality of analysis and insights
+
 ##Project Structure
-Mobile-Phone-Sales-EDA/
 │
 ├── data/
 ├── notebooks/
@@ -41,4 +40,3 @@ Mobile-Phone-Sales-EDA/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
